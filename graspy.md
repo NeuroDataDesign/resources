@@ -27,3 +27,7 @@ These would require more significant engineering work and testing, but all would
  - Seeded graph matching
     - [R implementation](https://github.com/dpmcsuss/iGraphMatch/tree/dev)
 
+## Other project ideas 
+ - Create NetworkX-compatible versions of many of our algorithms and PR them into NetworkX
+ - Benchmark some of our community detection and model fitting algorithms against graph-tool 
+ - Compare spectral methods to local graph clustering methods in a variety of simulation settings 
