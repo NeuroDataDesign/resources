@@ -1,4 +1,4 @@
-# Unsupervised randomer forest
+# Unsupervised SPORF
 
 ## Methods ideas
  - How to do dimensionality reduction on the output of U-SPORF?
