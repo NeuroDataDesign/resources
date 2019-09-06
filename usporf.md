@@ -6,9 +6,11 @@
  - What distance metrics on the trees to use to create the overall distance matrix output?
  - How to use U-SPORF for outlier detection? 
  - How to use U-SPORF on graphs (hard, I care about this but it would be very open ended)?
- - More generally, figure out how to apply U-SPORF to more general _structured_ data? Structured
+ - More generally, figure out how to apply U-SPORF to more general _structured_ data? Structured 
  simply means that the index of the data in its matrix representation matters, e.g. graphs, images, 
  timeseries.
+ - Plug in U-SPORF as a kernel in [this](https://github.com/KrishnaswamyLab/PHATE) manifold learning
+ algorithm.
  
 ## Application ideas 
  - Use U-SPORF to process genetic datasets (like single-cell RNAseq) 
