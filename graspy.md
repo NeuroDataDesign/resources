@@ -11,4 +11,4 @@
  - Hierarchical SBM
  - Seeded graph matching 
  - Matched graph filters 
- 
+ - Implement graph independence testing 
