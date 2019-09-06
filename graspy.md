@@ -5,10 +5,12 @@
  - [Connectal Coding](https://www.sciencedirect.com/science/article/pii/S0959438818301430)
  
 ## Current issues
+These range from small to large projects
  - [Issues page](https://github.com/neurodata/graspy/issues)
  - [Good first issues](https://github.com/neurodata/graspy/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22)
  
 ## Algorithms we need
+These would require more significant engineering work and testing, but all would be quite useful to have a high-quality implementation of in Python. If you are interested, talk to Pedigo! Any help with these would be very much appreciated.
  - Hierarchical SBM
     - This model describes multilevel community structure in networks, as well as identifies repeated patterns in the network
     - [Paper](https://arxiv.org/pdf/1503.02115.pdf)
