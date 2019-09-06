@@ -11,6 +11,7 @@
  timeseries.
  - Plug in U-SPORF as a kernel in [this](https://github.com/KrishnaswamyLab/PHATE) manifold learning
  algorithm.
+ - Implement [conditional entropy forests](https://arxiv.org/abs/1907.00325) as a usable class, some code exists already
  
 ## Application ideas 
  - Use U-SPORF to process genetic datasets (like single-cell RNAseq) 
