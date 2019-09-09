@@ -1,15 +1,20 @@
 # resources
 A collection of links to other resources that may be useful for the course
 
+## Bash / Command Line
+- [The Art of the Command Line](https://github.com/jlevy/the-art-of-command-line)
+- [Codecademy : command line course](https://www.codecademy.com/learn/learn-the-command-line)
+
 ## GitHub and Git
 - [Overview](https://github.com/NeuroDataDesign/github_tutorial)
-- [Codecademy : command line course](https://www.codecademy.com/learn/learn-the-command-line)
 - [Codecademy : git course](https://www.codecademy.com/learn/learn-git)
   - Note that these codecademy links are for paid courses - but there is a free trial.
 
 ## Python
 - [Neurodata coding practices](https://github.com/neurodata/practices/blob/master/Coding-practices.md)
 - [Transforming code into beautiful, idiomatic Python](https://github.com/JeffPaine/beautiful_idiomatic_python)
+  - Written for Python2, but the ideas translate well to python3
+- [Python anti-patterns](http://docs.quantifiedcode.com/python-anti-patterns/index.html)
 - [Pedigo's personal opinions on Python dev](https://github.com/bdpedigo/giskard/blob/master/python_start.md)
 - [Codecademy : python3 course](https://www.codecademy.com/learn/learn-python-3)
 - [Official python documentation](https://docs.python.org/3/tutorial/index.html)
