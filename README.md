@@ -3,11 +3,18 @@ A collection of links to other resources that may be useful for the course
 
 ## GitHub and Git
 - [Overview](https://github.com/NeuroDataDesign/github_tutorial)
+- [Codecademy : command line course](https://www.codecademy.com/learn/learn-the-command-line)
+- [Codecademy : git course](https://www.codecademy.com/learn/learn-git)
+  - Note that these codecademy links are for paid courses - but there is a free trial.
 
 ## Python
 - [Neurodata coding practices](https://github.com/neurodata/practices/blob/master/Coding-practices.md)
+- [Transforming code into beautiful, idiomatic Python](https://github.com/JeffPaine/beautiful_idiomatic_python)
 - [Pedigo's personal opinions on Python dev](https://github.com/bdpedigo/giskard/blob/master/python_start.md)
+- [Codecademy : python3 course](https://www.codecademy.com/learn/learn-python-3)
+- [Official python documentation](https://docs.python.org/3/tutorial/index.html)
 - [Coding practices for sklearn](https://scikit-learn.org/stable/developers/contributing.html#coding-guidelines)
+
 ## Communication 
 - [Jovo's figure checklist](https://bitsandbrains.io/2018/09/08/figures.html)
 - [Jovo's tips on making slides](https://bitsandbrains.io/2018/09/04/slides.html)
