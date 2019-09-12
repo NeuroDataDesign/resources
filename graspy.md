@@ -2,6 +2,7 @@
 
 ## Background 
  - See the papers listed [here](https://neurodata.io/graspy/)
+ - General reading on [graphs](https://github.com/NeuroDataDesign/resources/blob/master/graphs.md)
  - [Connectal Coding](https://www.sciencedirect.com/science/article/pii/S0959438818301430)
  
 ## Current issues
