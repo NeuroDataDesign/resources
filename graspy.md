@@ -25,6 +25,7 @@ These would require more significant engineering work and testing, but all would
     - [Paper](https://arxiv.org/pdf/1803.02423.pdf)
     - [R implementation](https://github.com/dpmcsuss/iGraphMatch/tree/dev) (same as the above, this algorithm specifically is buried somewhere in there)
  - Seeded graph matching
+    - This algorithm finds a correspondence between the nodes of two different graphs, very useful for many subsequent inference tasks
     - [R implementation](https://github.com/dpmcsuss/iGraphMatch/tree/dev)
  
  - Network classification using sparse optimzation
