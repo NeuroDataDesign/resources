@@ -26,6 +26,15 @@ These would require more significant engineering work and testing, but all would
     - [R implementation](https://github.com/dpmcsuss/iGraphMatch/tree/dev) (same as the above, this algorithm specifically is buried somewhere in there)
  - Seeded graph matching
     - [R implementation](https://github.com/dpmcsuss/iGraphMatch/tree/dev)
+ 
+ - Network classification
+    - Using sparse optimization, this algorithm finds the edges that are most useful in classification task.
+    - [Paper](https://arxiv.org/abs/1701.08140)
+    - [R implementation](https://github.com/jesusdaniel/graphclass)
+    - Some useful extensions:
+        - Extending to multiple classes
+        - Extending to a regression 
+        - Extending to multivariate regression
 
 ## Other project ideas 
  - Create NetworkX-compatible versions of many of our algorithms and PR them into NetworkX
