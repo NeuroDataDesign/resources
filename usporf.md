@@ -3,7 +3,7 @@
 ## Methods ideas
  - How to do dimensionality reduction on the output of U-SPORF?
  - How to do clustering on the output of U-SPORF?
-    - [Here](https://scikit-learn.org/stable/modules/clustering.html)are some clustering method comparisons in sklearn
+    - [Here](https://scikit-learn.org/stable/modules/clustering.html) are some clustering method comparisons in sklearn
     - One idea is to add high-dimensional noise to the above simulations, and then see how the different clustering methods compare on these tasks (and other simulated data settings that you could come up with).
     - For some of the above, being able to do this will depend on a dimensionality reduction step, so you may have to work closely with the person doing that. Some of the clustering methods can operate directly on a dissimilarity.
  - What distance metrics on the trees to use to create the overall distance matrix output?
