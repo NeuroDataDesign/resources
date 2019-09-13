@@ -2,6 +2,11 @@
 
 ## Methods ideas
  - How to do dimensionality reduction on the output of U-SPORF?
+    - [Figure S3 in this paper](https://www.biorxiv.org/content/biorxiv/early/2019/04/04/120378.full.pdf) has some simulated examples of dimensionality reduction.
+    - [Sklearn](https://scikit-learn.org/stable/modules/manifold.html) also has a few examples here 
+    - The geodesic learning paper has several simulated examples as well
+    - Could add high-dimensional noise to those simulations
+    - Compare random forest followed by many of these methods to those methods alone. Main ones to try after U-SPORF are MDS and Spectral Embedding, I think. 
  - How to do clustering on the output of U-SPORF?
     - [Here](https://scikit-learn.org/stable/modules/clustering.html) are some clustering method comparisons in sklearn
     - One idea is to add high-dimensional noise to the above simulations, and then see how the different clustering methods compare on these tasks (and other simulated data settings that you could come up with).
