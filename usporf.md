@@ -18,6 +18,7 @@
     - R's version of random forest already has some kind of outlier detection method.
     - I would do a literature search on this to get ideas
     - [Here](https://towardsdatascience.com/outlier-detection-with-isolation-forest-3d190448d45e) is one idea
+    - [Sklearn](https://scikit-learn.org/stable/modules/outlier_detection.html) has some nice explanation, can also consider the novelty task which is slightly different. Also, these would be good methods to compare to! Although I think some require you to be in the supervised case.
  - Figure out how to apply U-SPORF to more general _structured_ data? Structured simply means that the index of the data in its matrix representation matters, e.g. graphs, images, timeseries.
     - The current implementation of supervised SPORF already has functionality for structured data, that is, the random feature selection matrix that you sample from at each node is no longer truly random, but respects something about the feature's relationship to each other.
     - Example: in images, nearby pixels may be more likely to share information than far away pixels. So, rather than sampling random features (pixels), sample pixels that are nearby in space. 
