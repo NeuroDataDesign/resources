@@ -16,7 +16,8 @@
  - What distance metrics on the trees to use to create the overall distance matrix output?
  - How to use U-SPORF for outlier detection?
     - R's version of random forest already has some kind of outlier detection method.
-    - I would do a literature search on this to get ideas, I think the general concept is just that outliers will pop out as very far from everything in the dissimilarity matrix.
+    - I would do a literature search on this to get ideas
+    - [Here](https://towardsdatascience.com/outlier-detection-with-isolation-forest-3d190448d45e) is one idea
  - Figure out how to apply U-SPORF to more general _structured_ data? Structured simply means that the index of the data in its matrix representation matters, e.g. graphs, images, timeseries.
     - The current implementation of supervised SPORF already has functionality for structured data, that is, the random feature selection matrix that you sample from at each node is no longer truly random, but respects something about the feature's relationship to each other.
     - Example: in images, nearby pixels may be more likely to share information than far away pixels. So, rather than sampling random features (pixels), sample pixels that are nearby in space. 
