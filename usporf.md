@@ -6,7 +6,7 @@
     - [Sklearn](https://scikit-learn.org/stable/modules/manifold.html) also has a few examples here 
     - The geodesic learning paper has several simulated examples as well
     - Could add high-dimensional noise to those simulations
-    - Compare random forest followed by many of these methods to those methods alone. Main ones to try after U-SPORF are MDS and Spectral Embedding, I think. 
+    - Compare U-SPORF followed by many of these methods to those methods alone. Main ones to try after U-SPORF are MDS and Spectral Embedding, I think. 
     - One metric to evaluate is preservation of nearest neighbors/local distances on the true manifold to the output embedding that you get from random forest followed by an embedding step.
     - Another is just to evaluate based on some supervised or unsupervised task (clustering, supervised learning). 
  - How to do clustering on the output of U-SPORF?
