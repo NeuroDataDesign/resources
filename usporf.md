@@ -14,14 +14,13 @@
     - One idea is to add high-dimensional noise to the above simulations, and then see how the different clustering methods compare on these tasks (and other simulated data settings that you could come up with).
     - For some of the above, being able to do this will depend on a dimensionality reduction step, so you may have to work closely with the person doing that. Some of the clustering methods can operate directly on a dissimilarity.
  - What distance metrics on the trees to use to create the overall distance matrix output?
- - How to use U-SPORF for outlier detection? 
- - How to use U-SPORF on graphs (hard, I care about this but it would be very open ended)?
- - More generally, figure out how to apply U-SPORF to more general _structured_ data? Structured 
- simply means that the index of the data in its matrix representation matters, e.g. graphs, images, 
- timeseries.
- - Plug in U-SPORF as a kernel in [this](https://github.com/KrishnaswamyLab/PHATE) manifold learning
- algorithm.
- - Implement [conditional entropy forests](https://arxiv.org/abs/1907.00325) as a usable class, some code exists already
+ - How to use U-SPORF for outlier detection?
+    - R's version of random forest already has some kind of outlier detection method.
+    - I would do a literature search on this to get ideas, I think the general concept is just that outliers will pop out as very far from everything in the dissimilarity matrix.
+ - Figure out how to apply U-SPORF to more general _structured_ data? Structured simply means that the index of the data in its matrix representation matters, e.g. graphs, images, timeseries.
+    - The current implementation of supervised SPORF already has functionality for structured data, that is, the random feature selection matrix that you sample from at each node is no longer truly random, but respects something about the feature's relationship to each other.
+    - Example: in images, nearby pixels may be more likely to share information than far away pixels. So, rather than sampling random features (pixels), sample pixels that are nearby in space. 
+    - Look into how much work it would be to extend this idea to unsupervised SPORF. I'd start with looking at the SPORF code.
  
 ## Application ideas 
  - Use U-SPORF to process genetic datasets (like single-cell RNAseq) 
