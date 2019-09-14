@@ -21,7 +21,10 @@
     - The current implementation of supervised SPORF already has functionality for structured data, that is, the random feature selection matrix that you sample from at each node is no longer truly random, but respects something about the feature's relationship to each other.
     - Example: in images, nearby pixels may be more likely to share information than far away pixels. So, rather than sampling random features (pixels), sample pixels that are nearby in space. 
     - Look into how much work it would be to extend this idea to unsupervised SPORF. I'd start with looking at the SPORF code.
- 
+ - Implement sklearn-mergable USPORF
+    - I believe this would accelerate everyone's progress with USPORF in the future if we had a nice version that was truly pip installable, could go into sklearn someday but doesn't have to. 
+    - This would mostly be an engineering task 
+    - Would work closely with Jesse (engineering in the lab) to make a version of USPORF that is similar to the one he is writing of SPORF for sklearn
 ## Application ideas 
  - Use U-SPORF to process genetic datasets (like single-cell RNAseq) 
  - Collaborate with other teams... in theory, U-SPORF is great for _high dimensional noise_
