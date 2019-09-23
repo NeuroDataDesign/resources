@@ -28,3 +28,4 @@ not have to open your jupyter notebook or other content and display it to the cl
 This means that the experiment/task you aimed to achieve, and the actual results, should be clear from the slides
 themselves. The link to your evidence is to provide the TAs a way to tell what you actually did and to provide 
 extra info to people who are interested. 
+- Make sure your slides are up to date at the start of class, we should not have to refresh the slides constantly
