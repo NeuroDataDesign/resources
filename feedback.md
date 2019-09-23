@@ -1,4 +1,10 @@
 # Feedback on presentations
+
+
+This is how we will be evaluating you every week. As we add feedback to this list every week, please keep these comments in mind as they will affect your grading for the following week.
+
+---
+
 - every deliverable you completed this week should have a link or figure showing the results in some form 
 - every deliverable for next week should have a concrete definition of done (DoD). This is how we will 
 evaluate whether or not you did that thing so make sure we can evaluate it. We will be taking off points 
