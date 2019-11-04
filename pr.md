@@ -4,7 +4,7 @@
 Your assignment is to have PR(s) MERGED by the end of the semester. This means that you need to give the TAs/maintainers of these repos ample time to review your PR and provide feedback, for you to respond to that feedback, and potentially go through multiple rounds of feedback and response. TAs/maintainers are not responsible for your PR not being merged at the end of the semester if you do not give us enough time to review your PR(s).
  - If you PR by **Fri, Nov 22nd**, you will recieve feedback before **Mon, Dec 2nd**. We **strongly recommend** you at least make an initial PR and request feedback by this date. 
  - If you PR by **Fri, Dec 6th**, you will recieve feedback before **Fri, Dec 13**. 
- - Your PR(s) must be merged by the class final date: **Wed, Dec 17th**.
+ - Your PR(s) must be merged by the class final date: **Tues, Dec 17th**.
 
 ## Requirements for your end of semester PRs
 Your PR for the end of the semester should contain the following (where applicable for your particular project): 
