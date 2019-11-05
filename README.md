@@ -9,6 +9,8 @@ A collection of links to other resources that may be useful for the course
 - [Overview](https://github.com/NeuroDataDesign/github_tutorial)
 - [Codecademy : git course](https://www.codecademy.com/learn/learn-git)
   - Note that these codecademy links are for paid courses - but there is a free trial.
+- [Jake Vanderplas jupyter notebook / git videos](https://www.youtube.com/playlist?list=PLYCpMb24GpOC704uO9svUrihl-HY1tTJJ)
+  - Great set of short video tutorials on doing a simple data analysis with jupyter notebooks, and how a git workflow works.
 
 ## Python
 - [Neurodata coding practices](https://github.com/neurodata/practices/blob/master/Coding-practices.md)
