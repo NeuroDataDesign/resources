@@ -16,6 +16,8 @@ The following teams should attend:
  - Graph-stat1
  - Graph-stat2
  - EEG
+ 
+TAs/Jovo will meet with each team individually.
 On the day you present you should have a single slide based on the above guidelines
  
 ## Wednesday, Kavli rooms
@@ -24,6 +26,8 @@ The following teams should attend:
  - Savanna
  - Tealeaf
  - MRI
+ 
+TAs/Jovo will meet with each team individually. 
 On the day you present you should have a single slide based on the above guidelines
  
  ## Friday, Hodson
